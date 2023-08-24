@@ -1,0 +1,219 @@
+
+
+ /* Custom Alert Styles  */
+  .custom-alert {
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.show {
+    animation: fadeInOut 4.1s;
+}
+
+.custom-alert p {
+    margin: 0;
+}
+
+@keyframes fadeInOut {
+    0% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+}
+
+.boxinfo .delete-btn2{
+    width: 145px;
+    margin-left: -50px;
+    border-radius:9px;
+    margin-bottom: 4px;
+}
+
+.container{
+    height: 86%;
+    width: 200px;
+background-color:#80d0c732;
+position:absolute;
+top:75.5px;
+overflow: hidden;
+left:0px;
+}
+
+.boxinfo .fa-cog{
+font-size:19px;
+position: absolute;
+top:93.2%;
+color:white;
+cursor:grab;
+left:80%;
+}
+
+
+body{
+background-color: black;
+}
+
+
+    .boxsetting {
+        transform: scale(0);
+        transition: 0.6s;
+        border-radius:6px;
+        margin-left: -180px;
+        position: absolute;
+        top: 30%;
+        opacity: 0.5;
+        z-index: 4;
+        left: -15%;
+        width: 600px;
+        height:360px;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.149);
+    
+    }
+
+    .boxsetting .close {
+        color: white;
+        font-weight: bolder;
+        height:30px;
+        margin-top:-10px;
+        border-radius:50%;
+        width:30px;
+        text-align:center;
+        cursor: grab;
+        float: right;
+        background-color:red;
+    }
+
+    .navbar{
+        height:80px;
+        width:100%;
+        position: absolute;
+        top:0px;
+        left:0px;
+        background-color:#80d4c732;
+        border-bottom:5px solid black;
+    }
+
+    .navbar .info{
+        height:55px;
+        width:55px;
+        position:absolute;
+        top:5px;
+        border-radius:50%;
+        cursor:grab;
+        transition:0.5s;
+        left:20px;
+    }
+
+    .navbar .info:hover{
+    transition:0.5s;
+     opacity: 0.4;
+    }
+    
+#content {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+form {
+    width: 50%;
+    margin: 20px auto;
+}
+
+img {
+    margin: 5px;
+    width: 350px;
+    height: 250px;
+}
+
+.boxinfo .showimg{
+height:100px;
+width:100px;
+margin-left:-28px;
+margin-top:-47px;
+transition: 0.6s;
+transform: scale(0);
+border-radius:50%;
+}
+
+
+.boxinfo{
+    height: 89%;
+    width: 200px;
+    background-color:#80d0c732;
+    position: absolute;
+    top: 75px;
+    left: -250px;
+}
+
+.boxinfo .close p{
+    background-color:rgb(222, 32, 32);
+    color:white;
+    margin-top: 20px;
+    margin-left:90%;
+    height:30px;
+    width:30px;
+    font-family:Arial;
+    font-weight:bolder;
+    cursor:grab;
+    border-radius:50%;
+    text-align:center;
+    align-items:center;
+}
+
+  
+#txt{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif; 
+   }
+ 
+   
+   .message-history {
+    position: absolute;
+    width: 90%;
+    top: 0px;
+}
+
+.message-list {
+    margin-top: 10px;
+}
+
+.message {
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.messages_center {
+    border: 1px solid black;
+    height: 500px;
+}
+
+
+/* kak cdelat cookie? pri vhode ctob name i pass soxranilsa */
+/* est bug kotoriy ne mogu ispravit, a imenno smena porola. Soxranayne ego gdeto posle kajdogo probi smena parola */
+
